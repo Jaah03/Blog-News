@@ -23,7 +23,7 @@ const PublicationMeta = (
 					{aboutHTML ? (
 						<div
 							className={twJoin(
-								'prose dark:prose-dark rounded-xl p-5 text-center shadow-xl',
+								'prose dark:prose-dark rounded-xl p-5 text-center shadow-xl transition-all hover:bg-black hover:text-white',
 								isTeam ? 'lg:prose-xl max-w-full' : '',
 							)}
 							// eslint-disable-next-line react/no-danger
